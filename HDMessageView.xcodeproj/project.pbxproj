@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB7EF7581D52D228000F252D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF7571D52D228000F252D /* main.m */; };
+		EB7EF75B1D52D228000F252D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF75A1D52D228000F252D /* AppDelegate.m */; };
+		EB7EF75E1D52D228000F252D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF75D1D52D228000F252D /* ViewController.m */; };
+		EB7EF7611D52D228000F252D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7EF75F1D52D228000F252D /* Main.storyboard */; };
+		EB7EF7631D52D228000F252D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7EF7621D52D228000F252D /* Assets.xcassets */; };
+		EB7EF7661D52D228000F252D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7EF7641D52D228000F252D /* LaunchScreen.storyboard */; };
+		EB7EF7711D52D229000F252D /* HDMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF7701D52D229000F252D /* HDMessageViewTests.m */; };
+		EB7EF77C1D52D229000F252D /* HDMessageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF77B1D52D229000F252D /* HDMessageViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB7EF76D1D52D229000F252D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7EF74B1D52D228000F252D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7EF7521D52D228000F252D;
+			remoteInfo = HDMessageView;
+		};
+		EB7EF7781D52D229000F252D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7EF74B1D52D228000F252D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7EF7521D52D228000F252D;
+			remoteInfo = HDMessageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB7EF7531D52D228000F252D /* HDMessageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDMessageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7EF7571D52D228000F252D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB7EF7591D52D228000F252D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB7EF75A1D52D228000F252D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB7EF75C1D52D228000F252D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB7EF75D1D52D228000F252D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB7EF7601D52D228000F252D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB7EF7621D52D228000F252D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB7EF7651D52D228000F252D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB7EF7671D52D228000F252D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7EF76C1D52D229000F252D /* HDMessageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDMessageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7EF7701D52D229000F252D /* HDMessageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMessageViewTests.m; sourceTree = "<group>"; };
+		EB7EF7721D52D229000F252D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7EF7771D52D229000F252D /* HDMessageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDMessageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7EF77B1D52D229000F252D /* HDMessageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMessageViewUITests.m; sourceTree = "<group>"; };
+		EB7EF77D1D52D229000F252D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7EF7501D52D228000F252D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7EF7691D52D229000F252D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7EF7741D52D229000F252D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB7EF74A1D52D228000F252D = {
+			isa = PBXGroup;
+			children = (
+				EB7EF7551D52D228000F252D /* HDMessageView */,
+				EB7EF76F1D52D229000F252D /* HDMessageViewTests */,
+				EB7EF77A1D52D229000F252D /* HDMessageViewUITests */,
+				EB7EF7541D52D228000F252D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7EF7541D52D228000F252D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EF7531D52D228000F252D /* HDMessageView.app */,
+				EB7EF76C1D52D229000F252D /* HDMessageViewTests.xctest */,
+				EB7EF7771D52D229000F252D /* HDMessageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7EF7551D52D228000F252D /* HDMessageView */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EF7591D52D228000F252D /* AppDelegate.h */,
+				EB7EF75A1D52D228000F252D /* AppDelegate.m */,
+				EB7EF75C1D52D228000F252D /* ViewController.h */,
+				EB7EF75D1D52D228000F252D /* ViewController.m */,
+				EB7EF75F1D52D228000F252D /* Main.storyboard */,
+				EB7EF7621D52D228000F252D /* Assets.xcassets */,
+				EB7EF7641D52D228000F252D /* LaunchScreen.storyboard */,
+				EB7EF7671D52D228000F252D /* Info.plist */,
+				EB7EF7561D52D228000F252D /* Supporting Files */,
+			);
+			path = HDMessageView;
+			sourceTree = "<group>";
+		};
+		EB7EF7561D52D228000F252D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EF7571D52D228000F252D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB7EF76F1D52D229000F252D /* HDMessageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EF7701D52D229000F252D /* HDMessageViewTests.m */,
+				EB7EF7721D52D229000F252D /* Info.plist */,
+			);
+			path = HDMessageViewTests;
+			sourceTree = "<group>";
+		};
+		EB7EF77A1D52D229000F252D /* HDMessageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EF77B1D52D229000F252D /* HDMessageViewUITests.m */,
+				EB7EF77D1D52D229000F252D /* Info.plist */,
+			);
+			path = HDMessageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7EF7521D52D228000F252D /* HDMessageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7EF7801D52D229000F252D /* Build configuration list for PBXNativeTarget "HDMessageView" */;
+			buildPhases = (
+				EB7EF74F1D52D228000F252D /* Sources */,
+				EB7EF7501D52D228000F252D /* Frameworks */,
+				EB7EF7511D52D228000F252D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDMessageView;
+			productName = HDMessageView;
+			productReference = EB7EF7531D52D228000F252D /* HDMessageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB7EF76B1D52D229000F252D /* HDMessageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7EF7831D52D229000F252D /* Build configuration list for PBXNativeTarget "HDMessageViewTests" */;
+			buildPhases = (
+				EB7EF7681D52D229000F252D /* Sources */,
+				EB7EF7691D52D229000F252D /* Frameworks */,
+				EB7EF76A1D52D229000F252D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7EF76E1D52D229000F252D /* PBXTargetDependency */,
+			);
+			name = HDMessageViewTests;
+			productName = HDMessageViewTests;
+			productReference = EB7EF76C1D52D229000F252D /* HDMessageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB7EF7761D52D229000F252D /* HDMessageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7EF7861D52D229000F252D /* Build configuration list for PBXNativeTarget "HDMessageViewUITests" */;
+			buildPhases = (
+				EB7EF7731D52D229000F252D /* Sources */,
+				EB7EF7741D52D229000F252D /* Frameworks */,
+				EB7EF7751D52D229000F252D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7EF7791D52D229000F252D /* PBXTargetDependency */,
+			);
+			name = HDMessageViewUITests;
+			productName = HDMessageViewUITests;
+			productReference = EB7EF7771D52D229000F252D /* HDMessageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7EF74B1D52D228000F252D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = haKim;
+				TargetAttributes = {
+					EB7EF7521D52D228000F252D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EB7EF76B1D52D229000F252D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB7EF7521D52D228000F252D;
+					};
+					EB7EF7761D52D229000F252D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB7EF7521D52D228000F252D;
+					};
+				};
+			};
+			buildConfigurationList = EB7EF74E1D52D228000F252D /* Build configuration list for PBXProject "HDMessageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7EF74A1D52D228000F252D;
+			productRefGroup = EB7EF7541D52D228000F252D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7EF7521D52D228000F252D /* HDMessageView */,
+				EB7EF76B1D52D229000F252D /* HDMessageViewTests */,
+				EB7EF7761D52D229000F252D /* HDMessageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7EF7511D52D228000F252D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7EF7661D52D228000F252D /* LaunchScreen.storyboard in Resources */,
+				EB7EF7631D52D228000F252D /* Assets.xcassets in Resources */,
+				EB7EF7611D52D228000F252D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7EF76A1D52D229000F252D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7EF7751D52D229000F252D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7EF74F1D52D228000F252D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7EF75E1D52D228000F252D /* ViewController.m in Sources */,
+				EB7EF75B1D52D228000F252D /* AppDelegate.m in Sources */,
+				EB7EF7581D52D228000F252D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7EF7681D52D229000F252D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7EF7711D52D229000F252D /* HDMessageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7EF7731D52D229000F252D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7EF77C1D52D229000F252D /* HDMessageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB7EF76E1D52D229000F252D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7EF7521D52D228000F252D /* HDMessageView */;
+			targetProxy = EB7EF76D1D52D229000F252D /* PBXContainerItemProxy */;
+		};
+		EB7EF7791D52D229000F252D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7EF7521D52D228000F252D /* HDMessageView */;
+			targetProxy = EB7EF7781D52D229000F252D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB7EF75F1D52D228000F252D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7EF7601D52D228000F252D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB7EF7641D52D228000F252D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7EF7651D52D228000F252D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7EF77E1D52D229000F252D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB7EF77F1D52D229000F252D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7EF7811D52D229000F252D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HDMessageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.HDMessageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB7EF7821D52D229000F252D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HDMessageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.HDMessageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB7EF7841D52D229000F252D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HDMessageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.HDMessageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDMessageView.app/HDMessageView";
+			};
+			name = Debug;
+		};
+		EB7EF7851D52D229000F252D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HDMessageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.HDMessageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDMessageView.app/HDMessageView";
+			};
+			name = Release;
+		};
+		EB7EF7871D52D229000F252D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HDMessageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.HDMessageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HDMessageView;
+			};
+			name = Debug;
+		};
+		EB7EF7881D52D229000F252D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HDMessageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakim.HDMessageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HDMessageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7EF74E1D52D228000F252D /* Build configuration list for PBXProject "HDMessageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7EF77E1D52D229000F252D /* Debug */,
+				EB7EF77F1D52D229000F252D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7EF7801D52D229000F252D /* Build configuration list for PBXNativeTarget "HDMessageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7EF7811D52D229000F252D /* Debug */,
+				EB7EF7821D52D229000F252D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB7EF7831D52D229000F252D /* Build configuration list for PBXNativeTarget "HDMessageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7EF7841D52D229000F252D /* Debug */,
+				EB7EF7851D52D229000F252D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB7EF7861D52D229000F252D /* Build configuration list for PBXNativeTarget "HDMessageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7EF7871D52D229000F252D /* Debug */,
+				EB7EF7881D52D229000F252D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB7EF74B1D52D228000F252D /* Project object */;
+}
