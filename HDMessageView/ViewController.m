@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HDMessageView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    HDMessageView *messageView = [[HDMessageView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 49)];
+    [self.view addSubview:messageView];
+    messageView.messageArray = @[@"哈发货的哈地方呵呵呵11111"];
+    
+    [messageView start];
+//    messageView.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {

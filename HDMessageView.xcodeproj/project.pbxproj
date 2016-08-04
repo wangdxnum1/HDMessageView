@@ -15,6 +15,7 @@
 		EB7EF7661D52D228000F252D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7EF7641D52D228000F252D /* LaunchScreen.storyboard */; };
 		EB7EF7711D52D229000F252D /* HDMessageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF7701D52D229000F252D /* HDMessageViewTests.m */; };
 		EB7EF77C1D52D229000F252D /* HDMessageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF77B1D52D229000F252D /* HDMessageViewUITests.m */; };
+		EB7EF78C1D52D26D000F252D /* HDMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF78B1D52D26D000F252D /* HDMessageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EB7EF7771D52D229000F252D /* HDMessageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDMessageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7EF77B1D52D229000F252D /* HDMessageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMessageViewUITests.m; sourceTree = "<group>"; };
 		EB7EF77D1D52D229000F252D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7EF78A1D52D26D000F252D /* HDMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMessageView.h; sourceTree = "<group>"; };
+		EB7EF78B1D52D26D000F252D /* HDMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMessageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		EB7EF7551D52D228000F252D /* HDMessageView */ = {
 			isa = PBXGroup;
 			children = (
+				EB7EF7891D52D245000F252D /* HDMessageView */,
 				EB7EF7591D52D228000F252D /* AppDelegate.h */,
 				EB7EF75A1D52D228000F252D /* AppDelegate.m */,
 				EB7EF75C1D52D228000F252D /* ViewController.h */,
@@ -138,6 +142,15 @@
 				EB7EF77D1D52D229000F252D /* Info.plist */,
 			);
 			path = HDMessageViewUITests;
+			sourceTree = "<group>";
+		};
+		EB7EF7891D52D245000F252D /* HDMessageView */ = {
+			isa = PBXGroup;
+			children = (
+				EB7EF78A1D52D26D000F252D /* HDMessageView.h */,
+				EB7EF78B1D52D26D000F252D /* HDMessageView.m */,
+			);
+			path = HDMessageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				EB7EF75E1D52D228000F252D /* ViewController.m in Sources */,
 				EB7EF75B1D52D228000F252D /* AppDelegate.m in Sources */,
+				EB7EF78C1D52D26D000F252D /* HDMessageView.m in Sources */,
 				EB7EF7581D52D228000F252D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
